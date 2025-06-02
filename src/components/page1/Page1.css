@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nosifer&display=swap');
 
 
 * {
@@ -15,6 +17,7 @@
   display: flex;
   justify-content: safe;
   align-items: center;
+  gap: 0px;
 }
 
 .ism {
@@ -25,9 +28,9 @@
 
 
 .ism h1 {
-  font-family: "Codystar", sans-serif;
+  font-family: "Akronim", system-ui;
   font-size: 60px;
-  letter-spacing: 5px;
+  letter-spacing: 15px;
   color: #000;
   animation: zoomInOut 6s ease-in-out infinite;
 }
@@ -98,3 +101,82 @@
   }
 }
 
+.page .image img {
+  width: 700px;
+}
+
+.technology {
+  display: flex;
+  margin-top: 40px;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.technology .box {
+  border: 1px solid red;
+  padding: 10px 20px;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  font-family: "Nosifer", sans-serif;
+
+  animation: effekt 5s ease-in-out infinite;
+
+}
+
+.technology .box:hover {
+  border: 1px solid rgb(225, 255, 0);
+}
+
+.technology .box:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.technology .box:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+.technology .box:nth-child(3) {
+  animation-delay: 1.2s;
+}
+
+.technology .box:nth-child(2) {
+  animation-delay: 1.6s;
+}
+
+.technology .box:nth-child(1) {
+  animation-delay: 2s;
+}
+
+@keyframes effekt {
+  0% {
+    border: 1px solid red;
+  }
+
+  20% {
+    border: 1px solid rgb(47, 255, 0);
+
+  }
+ 40% {
+    border: 1px solid rgb(21, 0, 255);
+
+  }
+   60% {
+    border: 1px solid rgb(255, 0, 195);
+
+  }
+   80% {
+    border: 1px solid rgb(255, 255, 255);
+
+  }
+  95% {
+    border: 1px solid rgb(242, 255, 0);
+
+  }
+   100% {
+    border: 1px solid rgb(255, 0, 0);
+
+  }
+}
