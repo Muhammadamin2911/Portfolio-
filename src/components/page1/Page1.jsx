@@ -1,5 +1,5 @@
 import "./Page1.css"
-import myphoto from "../../assets/photo_2025-06-02_15-30-03-Photoroom.png"
+import myphoto from "../../assets/5fa931fb-32fb-421a-8545-d606bb2c2fcc_removalai_preview.png"
 const Page1 = () => {
   return (
     <div className='page'>
