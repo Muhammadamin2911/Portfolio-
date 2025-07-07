@@ -1,5 +1,6 @@
 import "./Page1.css"
-import myphoto from "../../assets/5fa931fb-32fb-421a-8545-d606bb2c2fcc_removalai_preview.png"
+
+import Swiper from '../img-swiper/Swiper'
 const Page1 = () => {
   return (
     <div className='page'>
@@ -28,7 +29,7 @@ const Page1 = () => {
           </div>
       </div>
       <div className="image">
-<img src={myphoto} alt="" />
+<Swiper/>
       </div>
     </div>
   )

@@ -4,7 +4,7 @@ import logo from "../../assets/image-removebg-preview.png"
 const Header = () => {
   return (
     <div className='header'>
-      <div className="logo"><img src={logo} alt="" /></div>
+      <div className="Hlogo"><img src={logo} alt="" /></div>
 
 
       <div className="header_links">
